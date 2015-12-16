@@ -1,0 +1,56 @@
+/**For Task Manager**/
+.vas-task-manager{
+    display: inline-block;
+    position: absolute;
+    height: auto;
+    bottom: 0;
+    width: 14%;
+    right: 1em;
+    background: #fff;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    box-shadow: 0.2px 0 2px rgba(99, 93, 93, 0.41);
+    transition: height 3s ease-in-out;
+}
+
+.vas-task-manager .vas-task-header{
+    font-weight: 600;
+    /*border-top: 2px solid #C62828;*/
+    border-bottom: 1px solid #BDBDBD;
+    color: #9E9E9E;
+    padding: 3px 7px;
+}
+
+.vas-task-manager .vas-task-header .vas-task-count{
+    float: right;
+}
+
+.vas-task-manager .vas-task-header::after{
+    clear: both;
+    display: block;
+    content: ' ';
+}
+
+.vas-task-manager .vas-task-content{
+    /*padding: 4px 7px;*/
+    font-size: 12px;
+}
+
+.vas-task-manager .vas-task-content .vas-task-item{
+    padding: 4px 7px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.vas-task-manager .vas-task-content .vas-task-item::after{
+    clear: both;
+    display: block;
+    content: ' ';
+}
+
+.vas-task-manager .vas-task-content .vas-task-name{
+    padding-right: 6px;
+}
+
+.vas-task-manager .vas-task-content .vas-task-p-img{
+    float: right;
+}

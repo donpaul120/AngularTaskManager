@@ -1,0 +1,14 @@
+<section class="vas-task-manager" ng-controller="TaskController as taskCtrl">
+    <div class="vas-task-header">
+        Running Task
+        <span class="vas-task-count">{{taskCtrl.taskPool.length}}</span>
+    </div>
+    <div class="vas-task-content">
+        <div ng-repeat="task in taskCtrl.taskPool" class="vas-task-item">
+            <span class="vas-task-name">{{task.processName}}</span>
+            <span class="vas-task-p-img">
+                <img height="15" width="15" src="../assets/images/task_running_icon.gif">
+            </span>
+        </div>
+    </div>
+</section>
