@@ -96,7 +96,7 @@ BookService.prototype.getBooksByAuthor = function(authorName, callback){
 
 ## Preview Example
 
-![alt-text](https://github.com/donpaul120/AngularTaskManager/tree/master/src/assets/images/angula_task_mgr_ex.png "Example of taskmanager")
+![alt-text]( https://github.com/donpaul120/AngularTaskManager/blob/master/src/assets/images/angula_task_mgr_ex.png "Example" )
 
 ## Contributions
 
