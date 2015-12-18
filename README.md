@@ -100,7 +100,3 @@ BookService.prototype.getBooksByAuthor = function(authorName, callback){
 
 ## Contributions
 
-For contributions, advice, assistance please kindly send an e-mail to
-donpaul120@gmail.com
-
-Your help will be really appreciated.
